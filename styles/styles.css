@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Kumbh+Sans:wght@300&family=Lato:wght@300&family=Nunito+Sans&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Be Vietnam", sans-serif;
+}
+@media (max-width: 1440px) {
+  /*Header*/
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+  }
+  header img {
+    height: 1.5625rem;
+  }
+  header .icon-hamburguer {
+    display: none;
+  }
+  header .nav {
+    width: 40%;
+  }
+  header .nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  header .nav ul li {
+    list-style: none;
+  }
+  header .nav ul li:hover {
+    cursor: pointer;
+    color: rgba(36, 46, 82, 0.6);
+  }
+  .contact,
+  .hero-text button {
+    background-color: #8b48bf;
+    width: 10.25rem;
+    height: 2.75rem;
+    border-radius: 3.125rem;
+    color: #ffffff;
+    font-size: 0.82377875rem;
+    border: none;
+  }
+  /*Hero*/
+  .hero {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    margin-top: 7rem;
+  }
+  .hero .hero-img {
+    width: 50%;
+  }
+  .hero .hero-img img {
+    width: 33.75rem;
+    height: 28.816875rem;
+  }
+  .hero-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .hero-text h1 {
+    text-align: right;
+    color: #232c50;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 114.6%;
+  }
+  .hero-text p {
+    align-self: stretch;
+    font-size: 1.0349rem;
+    margin-top: 2rem;
+    line-height: 157.1%;
+    font-weight: 500;
+    text-align: right;
+  }
+  .hero-text button {
+    margin-top: 2rem;
+  }
+  /*main primer section*/
+  .title-p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    background-color: #8b48bf;
+    margin-top: 3rem;
+    height: 10.5rem;
+  }
+  .title-p div {
+    width: 28.125rem;
+  }
+  .title-p div h3 {
+    color: #ffffff;
+    font-size: 2.25rem;
+    line-height: 114.6%;
+
+    text-align: right;
+  }
+  .title-p div h3 span {
+    margin-right: 20.5rem;
+  }
+  .title-p div p {
+    color: #ffffff;
+    text-align: center;
+  }
+  /*main segundo section*/
+  .section-list {
+    width: 100vw;
+    height: 26.75rem;
+    position: relative;
+    background-color: #fafafa;
+    margin-top: 2.5rem;
+  }
+  .section-list_button_01,
+  .section-list_button_02,
+  .section-list_button_03 {
+    background: #8b48bf;
+    border-radius: 1.875rem;
+    padding: 0.625rem 1.5625rem;
+    width: 4.3125rem;
+    height: 2.6875rem;
+    color: #ffffff;
+    border: none;
+    margin-right: 1.5rem;
+  }
+  .section_list_container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 9.5625rem;
+    margin-right: 9.5625rem;
+  }
+  .section-list_p_article_container,
+  .section-list_p_article_container2 {
+    width: 50%;
+  }
+  .section-list_p_article_container p,
+  .section-list_p_article_container2 p,
+  .section-list_p_article_container3 p {
+    height: 1.4375rem;
+    font-family: "Be Vietnam", sans-serif;
+    font-weight: bold;
+    line-height: 1.46125rem;
+    letter-spacing: -1.5%;
+    color: #323851;
+    margin-top: 0.7rem;
+  }
+  .section-list_p_article_container article,
+  .section-list_p_article_container2 article,
+  .section-list_p_article_container3 article {
+    margin-top: 1.8rem;
+    color: #b3b2b7;
+    font-family: "Be Vietnam";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.01865rem;
+    line-height: 1.625rem;
+  }
+  .section-list_p_article_container3 {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  /*section Best of the mounth*/
+  .section-Best-of-the-Mounth {
+    margin-top: 7rem;
+  }
+  .section-Best-of-the-Mounth_title {
+    color: #242e53;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.45089375rem;
+    line-height: 156.6%;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .section-Best-of-the-Mounth .card_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+  .card_container_sanyo,
+  .card_container_lebron,
+  .card_container_navarro {
+    position: relative;
+    width: 27.8125rem;
+    height: 13.75rem;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card_container_img_sanyo,
+  .card_container_img_lebron,
+  .card_container_img_navarro {
+    position: absolute;
+    width: 87.01px;
+    height: 71.94px;
+    left: 157.99px;
+    margin-top: -14rem;
+    margin-left: 2rem;
+  }
+  .card_container_sanyo p,
+  .card_container_lebron p,
+  .card_container_navarro p {
+    color: #3f4868;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1, 0044625rem;
+    line-height: 156.6%;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .card_container_sanyo article,
+  .card_container_lebron article,
+  .card_container_navarro article {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 156.6%;
+    color: #b9b9c1;
+    margin-top: 1.5rem;
+  }
+  .button_section-Best-of-the-Mounth {
+    width: 134px;
+    height: 44px;
+    left: 653px;
+    top: 1944px;
+
+    background: rgba(139, 72, 191, 0.7);
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 45rem;
+    margin-top: 4rem;
+  }
+  /*Footer*/
+  .footer {
+    width: 100vw;
+    height: 247px;
+    left: 0px;
+    
+    margin-top: 10rem;
+  }
+  .footer-section1 {
+    background-color: #8b48bf;
+    width: 100vw;
+    height: 224px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div-footer-section1 {
+    width: 30%;
+    margin-left: 5rem;
+  }
+  .title_footer-section1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #ffffff;
+  }
+  .button_footer-section1 {
+    width: 134px;
+    height: 44px;
+    border: none;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    color: #8b48bf;
+    border-radius: 50px;
+    margin-right: 10rem;
+  }
+  .footer-section2 {
+    background-color: #1e1e26;
+    width: 100vw;
+    height: 247px;
+    left: 0px;
+    top: 149,5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-section2_social_media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footer-section2_social_media_contact {
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-section2_list_contact li,
+  .footer-section2_list_terms li {
+    list-style: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 0.2rem;
+    margin-top: 3rem;
+  }
+  .footer-section2_form {
+    display: flex;
+    margin-top: 3rem;
+  }
+  .footer-section2_form_div {
+    width: 12.5625rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 3.125rem;
+  }
+  .footer-section2_form_div .form-section2_input {
+    margin-left: 1rem;
+    border: none;
+  }
+  .footer-section2_form_div input::placeholder {
+    color: #a0a0a0;
+    font-weight: 600;
+    font-size: 13.1806px;
+    line-height: 19px;
+  }
+  .footer-section2_button {
+    width: 63px;
+    height: 42px;
+    color: #ffffff;
+    background: #8b48bf;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    gap: 10px;
+    margin-left: 0.8rem;
+  }
+  .footer-section2_p {
+    position: absolute;
+    color: #8c8c94;
+    margin-top: 12rem;
+    margin-left: 65rem;
+    font-weight: 500;
+    font-size: 0, 78125rem;
+    line-height: 1, 125rem;
+    
+  }
+}
+@media (max-width: 480px) {
+  /*Header*/
+  header .nav {
+    display: none;
+  }
+  header .contact {
+    display: none;
+  }
+  header .icon-hamburguer {
+    display: block;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero .hero-img img {
+    width: 400px;
+    height: 341.53px;
+  }
+  .hero .hero-text {
+    width: 80vw;
+  }
+  .hero .hero-text h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 114.6%;
+    text-align: right;
+    letter-spacing: -0.035em;
+  }
+  .title-p {
+    display: flex;
+    flex-direction: column;
+
+    width: 480px;
+    height: 306px;
+    background-color: #3cddf3;
+  }
+
+  /*Section list*/
+  .section-list {
+    width: 100vw;
+    height: 682px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .section_list_container {
+    display: none;
+    height: 100%;
+    width: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+  .section-list_p_article_container,
+  .section-list_p_article_container2 {
+    width: 100%;
+    height: 214px;
+  }
+  .section-list_p_article_container3 {
+    width: 450px;
+    margin-left: 2rem;
+  }
+  .section-list_p_article_container p,
+  .section-list_p_article_container2 p,
+  .section-list_p_article_container3 p {
+    width: 27.95rem;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    background: rgba(139, 72, 191, 0.3);
+    border-radius: 50px 0px 0px 50px;
+  }
+
+  .section-list_p_article_container article,
+  .section-list_p_article_container2 article,
+  .section-list_p_article_container3 article {
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    margin-right: 5rem;
+  }
+  /*Section Best-of-the-Mounth*/
+  .card_container_sanyo,
+  .card_container_navarro {
+    display: none;
+  }
+  .card_container_lebron {
+    margin-top: 5rem;
+  }
+  .button_section-Best-of-the-Mounth {
+    background-color: #8b48bf;
+    margin-left: 11rem;
+  }
+  /*Footer*/
+
+  .footer-section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 366px;
+    left: -2px;
+    top: 2691px;
+
+    background: #3cddf3;
+  }
+  .div-footer-section1 {
+    height: 60%;
+    width: 80%;
+    margin-left: 0rem;
+  }
+  .title_footer-section1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    height: 100%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .button_footer-section1 {
+    width: 134px;
+    height: 44px;
+    color: #ffffff;
+    background: #232c50;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin-right: 0rem;
+    margin-bottom: 5rem;
+  }
+  .footer-section2 {
+    width: 480px;
+    height: 534.71px;
+    left: 0px;
+  }
+  .footer-section2_form {
+    position: absolute;
+  }
+  .footer-section2_form_div {
+    margin-right: 1rem;
+    width: 308px;
+    height: 44px;
+
+    background: #ffffff;
+    border-radius: 50px;
+  }
+  .footer-section2_list_contact {
+    position: absolute;
+    margin-top: 7rem;
+    margin-right: 15rem;
+  }
+  .footer-section2_list_terms {
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: 12rem;
+  }
+  .footer-section2_social_media_contact {
+    width: 480px;
+    height: 42.05px;
+    margin-top: 14rem;
+  }
+  .footer-section2_social_media_contact img {
+    width: 20px;
+    height: 20px;
+  }
+  .footer-image_logo {
+    position: absolute;
+    width: 127.68px;
+    height: 45px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+  }
+  .footer-section2_p {
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: 30rem;
+  }
+}
